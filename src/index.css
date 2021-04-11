@@ -5,18 +5,19 @@
   font-family: "Lato", sans-serif;
 }
 .navbar {
-  background: #ffff;
+  background: #ffffff;
   padding: 1rem 8rem;
   z-index: 100;
 }
 
 .navbar a {
+  color: #8d8c8d;
   font-size: 1.3rem;
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
-.nav-item .btn1 {
+.nav-item .btn {
   background: transparent linear-gradient(290deg, #3059c8 0%, #e05ef5 100%) 0%
     0% no-repeat padding-box;
   border: #ffff;
@@ -24,12 +25,12 @@
   margin-left: 30px;
 }
 .nav-item > button {
-  background: #ffffff;
+  background: #ffffff 0% 0% no-repeat padding-box;
   border: 2px solid #3059c8;
-  border-radius: 50px;
-  margin-left: 30px;
+  border-radius: 25px;
+  margin-left: 20px;
 }
 
-.navbar a:hover {
-  border-bottom: #3058c9;
+.menu_active {
+  border-bottom: 4px solid #3058c9;
 }
