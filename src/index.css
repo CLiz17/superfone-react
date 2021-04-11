@@ -17,6 +17,10 @@
   margin-left: 50px;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(141, 140, 141);
+}
+
 .nav-item .btn {
   background: transparent linear-gradient(290deg, #3059c8 0%, #e05ef5 100%) 0%
     0% no-repeat padding-box;

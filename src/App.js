@@ -1,10 +1,10 @@
 import React from "react";
-import Features from "./Features";
-import Teams from "./Teams";
-import Pricing from "./Pricing";
-import Integrations from "./Integrations";
-import Blog from "./Blog";
-import Navbar from "./Navbar";
+import Features from "./pages/Features";
+import Teams from "./pages/Teams";
+import Pricing from "./pages/Pricing";
+import Integrations from "./pages/Integrations";
+import Blog from "./pages/Blog";
+import Navbar from "./components/Navbar";
 import './App.css';
 import { Switch, Route,Redirect } from "react-router-dom";
 
