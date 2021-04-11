@@ -38,3 +38,6 @@
 .menu_active {
   border-bottom: 4px solid #3058c9;
 }
+main {
+  margin-top: 150px;
+}

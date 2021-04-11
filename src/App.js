@@ -12,14 +12,16 @@ const App = () => {
   return(
     <>
      <Navbar/>
-       <Switch>
+     <main>
+         <Switch>
          <Route exact path="/Features" component={Features} />
          <Route exact path="/Teams" component={Teams} />
          <Route exact path="/Pricing" component={Pricing} />
          <Route exact path="/" component={Integrations} />
          <Route exact path="/Blog" component={Blog} />
          <Redirect to="/" />
-       </Switch>
+         </Switch>
+     </main>
     </>
   );
 };
