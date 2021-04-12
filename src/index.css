@@ -41,3 +41,27 @@
 main {
   margin-top: 150px;
 }
+
+.row .h1 {
+  color: #3059c8;
+}
+
+.mt-3 > .btn1:first-child {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3059c8;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+.mt-3 > .btn1:first-child:hover {
+  color: #3059c8;
+  text-decoration: none;
+}
+
+.mt-3 > .btn:last-child {
+  background: transparent linear-gradient(290deg, #3059c8 0%, #e05ef5 100%) 0%
+    0% no-repeat padding-box;
+  border: #ffff;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
