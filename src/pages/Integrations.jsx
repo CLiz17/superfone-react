@@ -9,9 +9,9 @@ const Integration = () => {
           <div className="col-10 mx-auto">
           <div className="row">
             <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-2
-                        d-flex justify-content-center flex-column">
-              <h1>Superfone Integrates<br/>Seamlessly With All Leading <br/>CRMs Used By Sales Teams</h1>
-           <h5>Easily keep your CRM updated in real-time with all<br/>customer calls and notes,
+                        d-flex justify-content-center flex-column head-text">
+              <h1 className="main-header">Superfone Integrates<br/>Seamlessly With All Leading <br/>CRMs Used By Sales Teams<br/></h1>
+           <h5 className="main-body">Easily keep your CRM updated in real-time with all<br/>customer calls and notes,
               tasks so you always have a <br/>complete picture of your pipeline</h5> 
             <div className="mt-3">
             <a href="" type="button" className="btn1 btn-outline-primary btn-lg ">Request Demo</a>
