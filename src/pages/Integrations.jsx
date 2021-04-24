@@ -23,7 +23,7 @@ const Integration = () => {
               </div>
 
               <div className="col-lg-6 order-1 order-lg-2 header-img">
-                  <img src={Side} className="img-fluid animated" alt="illustration png" />
+                  <img src={Side} className="img-fluid animated" alt="illustration.png" />
               </div>
 
             </div>
@@ -36,13 +36,13 @@ const Integration = () => {
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="true" href="#">Active</a>
+        <a class="nav-link active">Active</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link disabled">Disabled</a>
       </li>
     </ul>
   </div>
@@ -55,89 +55,109 @@ const Integration = () => {
            
             <div className="col-md-4 col-10 mx-auto">
             <div class="card">
-                <img src="..." class="card-img-top" alt="..."/>
-
+                <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/hubspot.png" class="card-img-top"/>
+                      <hr/>
                   <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
                  </div>
              </div>
            </div>
 
       <div className="col-md-4 col-10 mx-auto">
         <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/zoho.png" class="card-img-top"/>
+        <hr/>
          <div class="card-body">
-         <h5 class="card-title">Card title</h5>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+         <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
         </div>
       </div>
         </div>
 
       <div className="col-md-4 col-10 mx-auto">
         <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
          <div class="card-body">
-         <h5 class="card-title">Card title</h5>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+         <hr/>
+           <p class="card-text">SalesForce is the favourite CRM of large sales teams and enterprises.
+            With a one-click sync, your SDFC information will appear in Wingman (chosen fields) 
+            and information will be pushed to your CRM.</p>
+   
         </div>
       </div>
         </div>
 
       <div className="col-md-4 col-10 mx-auto">
         <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
          <div class="card-body">
-         <h5 class="card-title">Card title</h5>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+         <hr/>
+           <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
+   
         </div>
       </div>
         </div>
 
       <div className="col-md-4 col-10 mx-auto">
         <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/freshsales.png" class="card-img-top" />
          <div class="card-body">
-         <h5 class="card-title">Card title</h5>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+         <hr/>
+           <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
+
         </div>
       </div>
         </div>
 
     <div className="col-md-4 col-10 mx-auto">
       <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/pipedrive.png" class="card-img-top"/>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Go somewhere</a>
+        <hr/>
+          <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
+
       </div>
     </div>
   </div>
 
   <div className="col-md-4 col-10 mx-auto">
       <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png" class="card-img-top"/>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Go somewhere</a>
+        <hr/>
+          <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
+
       </div>
     </div>
   </div>
 
   <div className="col-md-4 col-10 mx-auto">
       <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/odoo.png" class="card-img-top"/>
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         <a href="#" class="btn btn-primary">Go somewhere</a>
+        <hr/>
+          <p class="card-text">HubSpot is one of the most popular CRM tools.
+                       With a one-click sync, your HubSpot information will appear in
+                        Wingman (chosen fields) and information will be pushed to your
+                         CRM.</p>
+
       </div>
     </div>
   </div>
@@ -149,19 +169,36 @@ const Integration = () => {
 </div> 
 </div>
 
-  <div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-  <div class="card-footer text-muted">
-    2 days ago~
+  <div class="card text-center banner">
+  <div class="card-body banner">
+    <h1 class="card-title">Try all features free for 30 days</h1>
+    <h2 class="card-text">No Credit Card Required</h2>
+    <div className="mt-3">
+                    <a href="" type="button" className="btn1 btn-outline-primary btn-lg ">Request Demo</a>
+
+                     <a href="" type="button" className="btn btn-primary btn-lg ">Start Free Trial</a>
+                 </div>
   </div>
 </div>
+<div class="row">
+    <div class="column">
+      <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/src/components/head.png"/>   
+    </div>
+    <div class="column"></div>
+    <div class="column">
+         
+    </div>
+    <div class="column">
+         
+    </div>
+    <div class="column">
+    <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png" className="img-fluid animated"/>   
+    </div>
+  </div>
+  <hr/>
+  <div id="foot" class="card-footer text-muted" >
+  Copyright ⓒ Superfone.ai, All Rights Reserved
+  </div>
   </>
   )
 } 

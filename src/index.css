@@ -72,3 +72,23 @@ main {
 .head-text {
   margin-top: 50px;
 }
+
+.card {
+  border-inline: none;
+}
+
+#main {
+  background-color: #f8f8f8;
+}
+
+#endfoot {
+  width: 1366px;
+  height: 271px;
+  background: transparent linear-gradient(297deg, #3059c8 0%, #aa30c8 100%) 0%
+    0% no-repeat padding-box;
+}
+
+#foot {
+  color: #000000;
+  text-align: right;
+}
