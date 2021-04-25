@@ -9,7 +9,9 @@
   padding: 1rem 8rem;
   z-index: 100;
 }
-
+.cardnav a {
+  color: #747474;
+}
 .navbar a {
   color: #8d8c8d;
   font-size: 1.3rem;
@@ -73,22 +75,11 @@ main {
   margin-top: 50px;
 }
 
-.card {
-  border-inline: none;
+.header-img {
+  width: 620px;
+  height: 486px;
 }
 
-#main {
+.body {
   background-color: #f8f8f8;
-}
-
-#endfoot {
-  width: 1366px;
-  height: 271px;
-  background: transparent linear-gradient(297deg, #3059c8 0%, #aa30c8 100%) 0%
-    0% no-repeat padding-box;
-}
-
-#foot {
-  color: #000000;
-  text-align: right;
 }
