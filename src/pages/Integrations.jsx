@@ -45,6 +45,10 @@ const Integration = () => {
 <br/>
 <br/>
    
+<div class="fixed-bottom d-flex justify-content-end">
+    <img style={{}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/cff5001e32aafe835eceb31bd3ffd69ae04d7e21/Images/bubble.svg"/>
+</div>
+
      <div className="body"style={{marginLeft:"78px",marginRight:"78px",
      background:"#f1f1f1"}} >
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -104,7 +108,7 @@ const Integration = () => {
 
       <div className="col-md-4 col-10 mx-auto " style={{background:"0% 0% no-repeat padding-box"}}>
         <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
+        <img style={{height:"210px"}}  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
          <div class="card-body">
          <hr/>
            <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
@@ -118,7 +122,7 @@ const Integration = () => {
 
       <div className="col-md-4 col-10 mx-auto"style={{background:"0% 0% no-repeat padding-box"}}>
         <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
+        <img style={{height:"210px"}}src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
          <div class="card-body">
          <hr/>
            <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
@@ -160,7 +164,8 @@ const Integration = () => {
 
   <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
       <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png" class="card-img-top"/>
+        <img style={{height:"200px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png"
+         class="card-img-top d-flex align-items-start"/>
         <div class="card-body">
         <hr/>
           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
@@ -174,7 +179,8 @@ const Integration = () => {
 
   <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
       <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/odoo.png" class="card-img-top"/>
+        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/odoo.png" 
+            class="card-img-top d-flex align-items-start"/>
         <div class="card-body">
         <hr/>
           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
@@ -191,41 +197,70 @@ const Integration = () => {
   </div>
 </div>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
 
-  <div class="card text-center banner">
+  <div class="card text-center banner" style={{background: "transparent linear-gradient(297deg, #3059C8 0%, #AA30C8 100%) 0% 0% no-repeat padding-box"}}>
   <div class="card-body banner">
-    <h1 class="card-title">Try all features free for 30 days</h1>
-    <h2 class="card-text">No Credit Card Required</h2>
+    <h1 class="card-title" style={{color:"white"}}><br/>Try all features free for 30 days<br/></h1>
+    <h2 class="card-text" style={{color:"white", fontFamily:"'Roboto', sans-serif"}}>No Credit Card Required<br/><br/></h2>
     <div className="mt-3">
-                    <a href="" type="button" className="btn1 btn-outline-primary btn-lg ">Request Demo</a>
+                    <a type="button" className="btn1 btn-outline-primary btn-lg "
+                    style={{color:"#ffffff", background: "0% 0% no-repeat padding-box", border: "2px solid #ffffff"}}>Request Demo</a>
 
-                     <a href="" type="button" className="btn btn-primary btn-lg ">Start Free Trial</a>
+                     <a type="button" className="btn btn-primary btn-lg "
+                      style={{ background:"#ffff", border: "#ffff", color:"#644bc8", padding:"12px 30px"}}>Start Free Trial</a>
                  </div>
-  </div>
+               <br/>
+          </div>
+     </div>
+
+<div style={{marginLeft:"97px",marginRight:"97px"}}>
+  
 </div>
 
-<div class="container1">
-  <div class="row justify-content-md-center">
-  </div>
-  <div class="row">
-    <div class="col">
-    <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/src/components/head.png"/>
+<footer class="bg-light" style={{marginLeft:"97px",marginRight:"97px"}}>
+<div class="d-flex flex-row ">
+<br/>
+<div class="col-sm flex-fill flex-column justify-content-start">
+<br/>
+    <div>
+    <img style={{width:"280px", height:"77px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/src/components/head.png"/>
     </div>
-    <div class="col-md-auto">
-      Pricing <br/> Integration <br/> Teams
+    <div>
+    <h7 style={{color:"#747474BF", marginLeft:"20px"}}>Connect with us</h7>
     </div>
-    <div class="col-md-auto">
-      Blog <br/>   
-    </div>
-    <div class="col col-lg-2">
-    <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png" className="img-fluid animated"/>
-    </div>
-  </div>
+    <div class="d-flex flex-row justify-content-start" style={{marginLeft:"20px", marginTop:"7px"}}>
+      <img style={{width:"24px", height:"24px", marginRight:"7px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/linkedin.svg"/>
+      <img style={{width:"24px", height:"24px", marginRight:"7px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/twitter.svg"/>
+      <img style={{width:"24px", height:"24px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/facebook.svg"/>
+    </div>  
 </div>
-  <hr/>
-  <div id="foot" class="card-footer text-muted" >
+
+<div class="d-flex flex-column justify-content-between" style={{color: "#747474", fontSize:"18px"}} >
+<br/>
+    <div>Pricing</div>
+    <div>Integration</div>
+    <div>Teams</div>
+</div>
+
+<div class="d-flex flex-column justify-content-start" style={{color: "#747474",marginLeft:"200px",
+                 marginRight:"200px",marginTop:"50px", fontSize:"18px"}} >
+    <div class="flex-wrap">Blog</div>
+    <div class="flex-wrap" style={{marginTop:"15px"}}>Privacy</div>
+</div>
+
+ <div class="d-flex flex-fill align-self-center justify-content-end">
+<img style={{width:"300px", height:"90px", marginTop:"40px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png" className="img-fluid animated"/>     
+</div>
+</div>
+<br/>
+  <div id="foot" class="card-footer text-muted" style={{textAlign:"right", backgroundColor:"white"}} >
   Copyright ⓒ Superfone.ai, All Rights Reserved
   </div>
+</footer>
   </>
   )
 } 
