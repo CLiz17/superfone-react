@@ -9,9 +9,7 @@
   padding: 1rem 8rem;
   z-index: 100;
 }
-.cardnav a {
-  color: #747474;
-}
+
 .navbar a {
   color: #8d8c8d;
   font-size: 1.3rem;
@@ -40,9 +38,7 @@
 .menu_active {
   border-bottom: 4px solid #3058c9;
 }
-main {
-  margin-top: 150px;
-}
+
 .main-header {
   color: #3059c8;
   font-weight: 550;
@@ -68,18 +64,9 @@ main {
     0% no-repeat padding-box;
   border: #ffff;
   border-radius: 25px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-bottom: 8px;
 }
 .head-text {
   margin-top: 50px;
-}
-
-.header-img {
-  width: 620px;
-  height: 486px;
-}
-
-.body {
-  background-color: #f8f8f8;
 }
