@@ -133,12 +133,11 @@ const Integration = () => {
                          <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
                        With a one-click sync, your HubSpot<br/> information will appear in
                         Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p> 
-                        
-          </div>
+                         CRM.</p>         
+                       </div>
+                   </div>
+              </div>
         </div>
-      </div>
-      </div>
 
 <br/>
 <br/>
@@ -161,41 +160,36 @@ const Integration = () => {
      </div>
 
 <footer class="bg-light" style={{marginLeft:"97px",marginRight:"97px"}}>
-<div class="d-flex flex-row ">
-<br/>
-<div class="col-sm flex-fill flex-column justify-content-start">
-<br/>
-    <div>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 justify-content-start">
     <img style={{width:"280px", height:"77px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/src/components/head.png"/>
-    </div>
-    <div>
-    <h7 style={{color:"#747474BF", marginLeft:"20px"}}>Connect with us</h7>
-    </div>
+    <p style={{color:"#747474BF", marginLeft:"20px"}}>Connect with us</p>
     <div class="d-flex flex-row justify-content-start" style={{marginLeft:"20px", marginTop:"7px"}}>
       <img style={{width:"24px", height:"24px", marginRight:"7px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/linkedin.svg"/>
       <img style={{width:"24px", height:"24px", marginRight:"7px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/twitter.svg"/>
       <img style={{width:"24px", height:"24px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/9680ae02e7872762c259f8b3e8741c5e899eacd8/icons/facebook.svg"/>
-    </div>  
-</div>
-
-<div class="d-flex flex-column justify-content-between" style={{color: "#747474", fontSize:"18px"}} >
-<br/>
-    <div>Pricing</div>
-    <div>Integration</div>
-    <div>Teams</div>
-</div>
-
-<div class="d-flex flex-column justify-content-start" style={{color: "#747474",marginLeft:"200px",
-                 marginRight:"200px",marginTop:"50px", fontSize:"18px"}} >
-    <div class="flex-wrap">Blog</div>
-    <div class="flex-wrap" style={{marginTop:"15px"}}>Privacy</div>
-</div>
-
- <div class="d-flex flex-fill align-self-center justify-content-end">
-<img style={{width:"300px", height:"90px", marginTop:"40px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png" className="img-fluid animated"/>     
-</div>
-</div>
-<br/>
+    </div> 
+    <br/> 
+    </div>
+    
+    <div class="col-lg-2 col-sm-12">
+    <br/>
+      <p>Pricing</p>
+      <p>Integration</p>
+      <p>Teams</p>
+    </div>
+    <div class="col-lg-2 col-sm-12">
+    <br/>
+      <p>Blog</p>
+      <p>Privacy</p>
+    </div>
+    <div class="col-lg-2 col-sm-12 justify-content-end">
+    <img style={{width:"180px", height:"90px", marginTop:"40px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png"/>
+    </div>
+  </div>
+  </div>
+  
   <div id="foot" class="card-footer text-muted" style={{textAlign:"right", backgroundColor:"white"}} >
   Copyright ⓒ Superfone.ai, All Rights Reserved
   </div>
