@@ -46,11 +46,11 @@ const Integration = () => {
 <br/>
    
 <div class="fixed-bottom d-flex justify-content-end">
-    <img style={{}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/cff5001e32aafe835eceb31bd3ffd69ae04d7e21/Images/bubble.svg"/>
+    <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/cff5001e32aafe835eceb31bd3ffd69ae04d7e21/Images/bubble.svg"/>
 </div>
 
      <div className="body"style={{marginLeft:"78px",marginRight:"78px",
-     background:"#f1f1f1"}} >
+          background:"#F8F8F8"}} >
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" style={{color:"#747474"}}><b>CRMs</b></a>
@@ -72,131 +72,74 @@ const Integration = () => {
     </div>
   </div>
 </nav>
-
-  <div class="card">
-        <div class="card-body" >
-        <div className="container-fluid mb-5">
-     <div className="row">
-      <div className="col-10 mx-auto">
+ <hr/>
+      <div class="container">
         <div className="row">
-           
-            <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
-            <div class="card">
-                <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/hubspot.png" class="card-img-top"/>
+          <div className="col-lg-4 col-sm-12">
+              <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/hubspot.png" class="card-img-top"/>
+              <hr/>
+                  <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                  With a one-click sync, your HubSpot<br/> information will appear in
+                  Wingman<br/> (chosen fields) and information will be<br/> pushed to your CRM.</p>
+
+                  <img style={{height:"210px"}}src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
+                     <hr/>
+           <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
+                         CRM.</p>  
+                         <img style={{height:"200px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png"
+         class="card-img-top d-flex"/>
+        <hr/>
+          <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
+                         CRM.</p>
+                  </div>
+
+          <div className="col-lg-4 col-sm-12">
+          <img  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/zoho.png" class="card-img-top"/>
+        <hr/>
+         <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your (chosen fields) and information will be<br/> pushed to your CRM.</p>
+
+                        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/freshsales.png" class="card-img-top" />
+         <hr/>
+           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
+                         CRM.</p>
+                         <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/odoo.png" 
+            class="card-img-top "/>
+        <hr/>
+          <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
+                         CRM.</p>
+          </div>
+
+          <div className="col-lg-4 col-sm-12">
+          <img style={{height:"210px"}}  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
+         
+         <hr/>
+           <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
+                       With a one-click sync, your HubSpot<br/> information will appear in
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
+                         CRM.</p>
+
+                         <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/pipedrive.png" class="card-img-top"/>
                       <hr/>
-                  <div class="card-body">
-                      <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
+                         <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
                        With a one-click sync, your HubSpot<br/> information will appear in
                         Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-                 </div>
-             </div>
-           </div>
-
-      <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
-        <div class="card">
-        <img  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/zoho.png" class="card-img-top"/>
-        <hr/>
-         <div class="card-body">
-         <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
+                         CRM.</p> 
+                        
+          </div>
         </div>
       </div>
-        </div>
-
-      <div className="col-md-4 col-10 mx-auto " style={{background:"0% 0% no-repeat padding-box"}}>
-        <div class="card">
-        <img style={{height:"210px"}}  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
-         <div class="card-body">
-         <hr/>
-           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-   
-        </div>
       </div>
-        </div>
 
-      <div className="col-md-4 col-10 mx-auto"style={{background:"0% 0% no-repeat padding-box"}}>
-        <div class="card">
-        <img style={{height:"210px"}}src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
-         <div class="card-body">
-         <hr/>
-           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-   
-        </div>
-      </div>
-        </div>
-
-      <div className="col-md-4 col-10 mx-auto " style={{background:"0% 0% no-repeat padding-box"}}>
-        <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/freshsales.png" class="card-img-top" />
-         <div class="card-body">
-         <hr/>
-           <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-
-        </div>
-      </div>
-        </div>
-
-    <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
-      <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/pipedrive.png" class="card-img-top"/>
-        <div class="card-body">
-        <hr/>
-          <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-
-      </div>
-    </div>
-  </div>
-
-  <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
-      <div class="card">
-        <img style={{height:"200px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png"
-         class="card-img-top d-flex align-items-start"/>
-        <div class="card-body">
-        <hr/>
-          <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-
-      </div>
-    </div>
-  </div>
-
-  <div className="col-md-4 col-10 mx-auto" style={{background:"0% 0% no-repeat padding-box"}}>
-      <div class="card">
-        <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/odoo.png" 
-            class="card-img-top d-flex align-items-start"/>
-        <div class="card-body">
-        <hr/>
-          <p class="card-text" style={{fontSize:"18px", color:"#747474"}}>HubSpot is one of the most popular CRM <br/> tools.
-                       With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your
-                         CRM.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>  
-  </div>
-</div>
-</div>
 <br/>
 <br/>
 <br/>
@@ -216,10 +159,6 @@ const Integration = () => {
                <br/>
           </div>
      </div>
-
-<div style={{marginLeft:"97px",marginRight:"97px"}}>
-  
-</div>
 
 <footer class="bg-light" style={{marginLeft:"97px",marginRight:"97px"}}>
 <div class="d-flex flex-row ">
@@ -262,6 +201,7 @@ const Integration = () => {
   </div>
 </footer>
   </>
+
   )
 } 
 
