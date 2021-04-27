@@ -53,10 +53,10 @@ const Integration = () => {
           background:"#F8F8F8"}} >
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" style={{color:"#747474"}}><b>CRMs</b></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button type="button" style={{color:"#747474", borderRadius:"30px", padding:"5px 7px 5px 7px",
+                    fontSize:"20px", background:"white", border:"none"}} class="btn btn-light active"><b>CRMs</b></button>
+         <a class="navbar-brand" ></a>
+   
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -82,13 +82,13 @@ const Integration = () => {
                   With a one-click sync, your HubSpot<br/> information will appear in
                   Wingman<br/> (chosen fields) and information will be<br/> pushed to your CRM.</p>
 
-                  <img style={{height:"210px"}}src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
+                  <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/microsoft.png" class="card-img-top" />
                      <hr/>
            <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
                        With a one-click sync, your HubSpot<br/> information will appear in
                         Wingman<br/> (chosen fields) and information will be<br/> pushed to your
                          CRM.</p>  
-                         <img style={{height:"200px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png"
+                         <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/agilecrm.png"
          class="card-img-top d-flex"/>
         <hr/>
           <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
@@ -102,7 +102,7 @@ const Integration = () => {
         <hr/>
          <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
                        With a one-click sync, your HubSpot<br/> information will appear in
-                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your (chosen fields) and information will be<br/> pushed to your CRM.</p>
+                        Wingman<br/> (chosen fields) and information will be<br/> pushed to your CRM.</p>
 
                         <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/freshsales.png" class="card-img-top" />
          <hr/>
@@ -120,7 +120,7 @@ const Integration = () => {
           </div>
 
           <div className="col-lg-4 col-sm-12">
-          <img style={{height:"210px"}}  src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
+          <img src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/salesforce.png" class="card-img-top" />
          
          <hr/>
            <p class="card-text" style={{fontSize:"18px", color:"#747474", background:"white" }}>HubSpot is one of the most popular CRM <br/> tools.
@@ -173,18 +173,18 @@ const Integration = () => {
     <br/> 
     </div>
     
-    <div class="col-lg-2 col-sm-12">
+    <div class="col-lg-2 col-md-4 col-sm-12">
     <br/>
       <p>Pricing</p>
       <p>Integration</p>
       <p>Teams</p>
     </div>
-    <div class="col-lg-2 col-sm-12">
+    <div class="col-lg-2 col-md-4 col-sm-12">
     <br/>
       <p>Blog</p>
       <p>Privacy</p>
     </div>
-    <div class="col-lg-2 col-sm-12 justify-content-end">
+    <div class="col-lg-2 col-md-4 col-sm-12 justify-content-end">
     <img style={{width:"180px", height:"90px", marginTop:"40px"}} src="https://raw.githubusercontent.com/CLiz17/superfone-integ/main/Images/getitongoogle.png"/>
     </div>
   </div>

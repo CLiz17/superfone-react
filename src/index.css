@@ -52,7 +52,6 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 2px solid #3059c8;
   border-radius: 25px;
-  margin-left: 20px;
 }
 .mt-3 > .btn1:first-child:hover {
   color: #3059c8;
@@ -64,8 +63,9 @@
     0% no-repeat padding-box;
   border: #ffff;
   border-radius: 25px;
-  margin-left: 50px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 12px 22px 12px 22px;
 }
 .head-text {
   margin-top: 50px;
