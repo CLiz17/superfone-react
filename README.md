@@ -1,2 +1,2 @@
-# React Web Sample 1
-~ Superfone Integration
+# Superfone Integration 
+React Web Sample 1
